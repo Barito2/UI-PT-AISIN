@@ -8,9 +8,9 @@ class LoginForm extends Component {
     const { handleSubmit } = this.props;
 
     return (
-      <div>
-        <form onSubmit={handleSubmit}>
-          <div class="form-group text-center">
+      <div className='row'>
+        <form onSubmit={handleSubmit} >
+          <div class="form-group text-center col-12">
             <label for="npk" className='my-3'>
               <b> LOG IN </b>
             </label>
